@@ -1,0 +1,4 @@
+# Add 'database-migration' label to any file changes within 'prisma' folder .sql extension file
+database-migration:
+  - changed-files:
+      - any-glob-to-any-file: "prisma/migrations/**/*.sql"
