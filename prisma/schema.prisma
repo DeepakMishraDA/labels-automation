@@ -27,6 +27,8 @@ model Post {
 
   content String?
 
+  genre String
+
   published Boolean @default(false)
 
   author User @relation(fields: [authorId], references: [id])
